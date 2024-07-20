@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+span, a, li{
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+.title{
+    font-size: 42px;
+    font-weight: 800;
+    margin: 50px 0;
+    text-align: center;
+}
+::-webkit-scrollbar{
+    display: none;
+  }
+button{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0 30px 10px 30px;
+    background-color: gold;
+    border: none;
+    font-weight: 600;
+    color: red ;
+    border-radius: 5px;
+    transition: 1s;
+    
+  }
+  button:active{
+    transform: scale(.1);
+  }
+  .imgs{
+    width: 100%;
+    height: 560px;
+  }
+
+    .img{
+    width: 290px;
+height: 350px;
+  }
+.s{
+  display: none;
+}
+  .butbag{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+  .wrapper{
+    margin-top: 20px;
+    display: flex;
+    overflow: auto;
+  }
+
+
+
+  
+.royxat{
+  margin: 30px 0 50px 0;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+}
+
+.box{
+  width: 60%; 
+text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.693);
+  padding: 30px 20px;
+margin: auto;
+}
+.bag{
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height:50px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+input{
+  height: 50%;
+  width: 50%;
+  padding: 5px 0;
+  border: none;
+  outline: none;
+  background-color: white;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.hr{
+  width: 100%;
+  background-color: black;
+  height: 2px;
+  margin-top: 1px;
+  
+}
+.but{
+  padding-top: 10px;
+}
+.btnbag{
+  width: 100%;
+  text-align: center;
+}
+.btnn{
+  padding-top: 10px;
+  margin-top: 40px;
+}
+
+
+.collection{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.button{
+  padding-top: 10px;
+}
+
+
+
+
+
+
+@media ( max-width:750px){
+.box{
+  width: 90%; 
+}
+input{
+  width: 100%;
+}
+.imgs{
+  display: none;
+}
+.s{
+  display: block;
+}
+}
