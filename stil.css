@@ -212,7 +212,7 @@ text-align: center;
 
 
 
-::-webkit-scrollbar{
+.collection::-webkit-scrollbar{
     display: none;
   }
 
